@@ -16,7 +16,7 @@ ENV = env.str("FLASK_ENV", default="development") # or "production"
 DEBUG = ENV == "development"
 
 APP_SETTINGS = {
-	"url-prefix" : "/benchmark/"
+	"url-prefix" : "/"
 }
 
 SPARQL_SETTINGS = {
